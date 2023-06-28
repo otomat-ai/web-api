@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.alt-font {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.feature-title {
+  @apply text-purple-500 font-semibold;
+}
+
+.used .feature-title {
+  @apply text-purple-400 font-semibold;
+}
+
+.feature-description {
+  @apply text-slate-400 text-sm;
+}
+
+.used .feature-description {
+  @apply text-slate-300 text-sm;
+}
